@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  font-size: 36px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.random__coctail {
+  margin-top: 47px;
+}
+
+#coctail {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.coctails__img img {
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.coctails__item {
+  position: relative;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+.coctails__name {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px;
+}
+
+.coctails__info--text {
+  text-align: center;
+  padding: 8px;
+}
+
+.coctails__age {
+  position: absolute;
+  top: 54px;
+  right: 158px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+.coctails__age span {
+  position: absolute;
+  color: white;
+  top: 6px;
+  left: 2px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.search__coctails-field {
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search__coctails {
+  width: 650px;
+}
+
+.search__input {
+  margin-right: 16px;
+  width: 400px;
+  padding: 14px;
+}
